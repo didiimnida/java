@@ -1,0 +1,23 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		//Arrays of strings.
+		
+		//Allocating memory for reference to strings.
+		String[] words = new String[3];
+		
+		//Set string itself. 
+		words[0] = "Hello";
+		words[1] = "to";
+		words[2] = "you";
+		
+		System.out.println(words[2]);
+		
+		String[] fruits = {"apple", "banana", "pear"};
+		
+		
+
+	}
+
+}

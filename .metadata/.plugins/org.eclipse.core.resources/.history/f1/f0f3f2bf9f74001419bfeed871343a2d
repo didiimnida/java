@@ -1,0 +1,21 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		int value = 7; //Value type
+		
+		int[] values; //Reference.
+		
+		values = new int[3]; //Uses new keyword to allocate memory to hold 3 integers.
+		
+		values[0] = 10;
+		values[1] = 20;
+		values[2] = 30;
+		
+		System.out.println(value[0]);
+		System.out.println(value[1]);
+		System.out.println(value[2]);
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+
+		int myNumber;
+		myNumber = 22;
+		System.out.println(myNumber);
+
+	}
+
+}

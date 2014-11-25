@@ -1,0 +1,35 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		//Arrays of strings.
+		
+		//Allocating memory for reference to strings.
+		String[] words = new String[3];
+		
+		//Set string itself. 
+		words[0] = "Hello";
+		words[1] = "to";
+		words[2] = "you";
+		
+		System.out.println(words[2]);
+		
+		String[] fruits = {"apple", "banana", "pear"};
+		
+		//Nice way to loop through an array. 
+		//GOOD
+		for(String fruit: fruits){
+			System.out.println(fruit);
+		}
+		
+		//Notes:
+		int value = 0; //primitive
+		String text = null; //default for reference (address) is null. 
+		
+		String[] texts = new String[2];
+		//Java will initialize each of those references to null. 
+		
+		texts[0] = "one";
+		//This is actually allocating memory for the string. 
+	}
+}

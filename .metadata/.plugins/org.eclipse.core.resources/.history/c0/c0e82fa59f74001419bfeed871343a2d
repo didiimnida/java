@@ -1,0 +1,15 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		int value = 7; //Value type
+		
+		int[] values; //Reference.
+		
+		values = new int[3]; //Uses new keyword to allocate memory to hold 3 integers.
+		
+		System.out.println(value[0]);
+	}
+
+}

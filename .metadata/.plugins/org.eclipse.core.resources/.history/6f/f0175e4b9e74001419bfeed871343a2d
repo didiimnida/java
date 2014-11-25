@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Please enter a command: ");
+		String text = input.nextLine(); 
+		
+		//Most programmers don't use switch.  
+		switch(text){
+		case "start":
+			System.out.println("machine started!");
+			break;
+			
+		}
+		
+	}
+
+}

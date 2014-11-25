@@ -1,0 +1,11 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		//Arrays of strings.
+		
+		String[] words = new String[3];
+
+	}
+
+}
