@@ -1,0 +1,19 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		//Initially set to an empty string.  
+		String info = "";
+		
+		//In Java, strings are immutable. 
+		//Creating a new string made from the empty string. 
+		info += "My name is Bob.";
+		info += " ";
+		info += "I am a builder.";
+		
+		System.out.println(info);
+
+	}
+
+}

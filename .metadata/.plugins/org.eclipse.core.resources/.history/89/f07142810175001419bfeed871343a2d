@@ -1,0 +1,33 @@
+class Frog {
+	String name;
+	int age;
+	
+	public String getName(){
+		return name;
+	}
+	
+	public int getAge(){
+		return age;
+	}
+	
+	public void speak(String text){
+		System.out.println(text);
+	}
+	
+	public void jump(int height){
+		System.out.println("Jumping: "+ height);
+	}
+
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Frog diana = new Frog();
+		diana.name = "Diana Frog";
+		diana.age = 29;
+		System.out.println(diana.getName());
+
+	}
+
+}

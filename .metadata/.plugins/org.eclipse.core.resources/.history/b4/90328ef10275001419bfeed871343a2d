@@ -1,0 +1,14 @@
+class Machine{
+	//Name of constructor must be the same as the name of the class. 
+	public 
+	
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Machine machine1 = new Machine();
+
+	}
+
+}

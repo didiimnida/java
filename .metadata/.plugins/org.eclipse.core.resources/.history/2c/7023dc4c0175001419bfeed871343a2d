@@ -1,0 +1,35 @@
+class Frog {
+	String name;
+	int age;
+	
+	public String getName(){
+		return name;
+	}
+	
+	public int getAge(){
+		return age;
+	}
+	
+	public void speak(String text){
+		System.out.println(text);
+	}
+	
+	public void jump(int height){
+		System.out.println("Jumping: "+ height);
+	}
+	public void move(){
+		
+	}
+}
+
+
+public class App {
+
+	public static void main(String[] args) {
+		Robot diana = new Robot();
+		diana.speak("I'm a Java Developer!");
+		diana.jump(10);
+
+	}
+
+}

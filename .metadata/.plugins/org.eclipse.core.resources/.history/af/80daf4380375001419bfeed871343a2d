@@ -1,0 +1,22 @@
+class Machine{
+	
+	private String name;
+
+	//Name of constructor must be the same as the name of the class. 
+	public Machine(){
+		System.out.println("Constructor running!");
+		name = "Diana";
+	}
+	
+	
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Machine machine1 = new Machine();
+		
+		new Machine();
+	}
+
+}

@@ -1,0 +1,11 @@
+//Car has all the methods that Machine has now using extends. 
+public class Car extends Machine{
+	public void wipeWindShield(){
+		System.out.println("Wiping windshield");
+	}
+	//Overwriting Machine method. 
+	public void start(){
+		System.out.println("Car started.");
+	}
+
+}

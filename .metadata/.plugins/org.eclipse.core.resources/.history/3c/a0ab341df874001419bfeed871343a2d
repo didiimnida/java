@@ -1,0 +1,22 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		int[] values = {3,5,2343};
+		System.out.println(values[2]);
+		
+		//2D Array.
+		int[][] grid = {
+				{3,5,333}, //row0
+				{2,34},   //row1
+				{12,3,4,53,34} //row2
+		};
+		//Each element is a reference to an array.  
+		
+		System.out.println(grid[1][0]);
+		System.out.println(grid[0][2]);
+		
+		String[][] tests = new String[]
+	}
+
+}

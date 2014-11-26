@@ -1,0 +1,6 @@
+package ocean;
+//Package statement should be first. 
+
+public class Fish {
+
+}

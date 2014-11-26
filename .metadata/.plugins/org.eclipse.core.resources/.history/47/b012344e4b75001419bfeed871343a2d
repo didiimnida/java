@@ -1,0 +1,15 @@
+class Frog{
+	//Useful for debugging.  
+	public String toString(){
+		
+	}
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

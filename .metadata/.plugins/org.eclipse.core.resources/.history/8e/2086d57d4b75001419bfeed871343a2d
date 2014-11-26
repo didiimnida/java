@@ -1,0 +1,20 @@
+class Frog{
+	//Useful for debugging. 
+	//Overwriting the toString() method. 
+//	public String toString(){
+//		return "Hello";
+//	}
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Frog frog1 = new Frog();
+		
+		//When call sysout on an object, Java tries to call toString method. 
+		//Will print out the hash code. 
+		System.out.println(frog1);
+
+	}
+
+}

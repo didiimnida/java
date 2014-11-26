@@ -1,0 +1,29 @@
+class Person{
+	
+	String name;
+	int age;
+	
+	void speak(){
+		System.out.println("My name is "+ name + "!");
+	}
+	
+	int calculateYearsToRetirement(){
+		int yearsLeft = 67 - age;
+		System.out.println("Years until retirement:" + yearsLeft);
+		return yearsLeft;
+	}
+	
+}
+public class App {
+
+	public static void main(String[] args) {
+		Person person1 = new Person();
+		person1.name = "Diana";
+		person1.age = 29;
+		person1.speak();
+		//Setting equal to the return value of the method.  
+		int years = person1.calculateYearsToRetirement();
+
+	}
+
+}

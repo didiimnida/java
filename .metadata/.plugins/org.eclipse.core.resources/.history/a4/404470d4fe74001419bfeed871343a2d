@@ -1,0 +1,16 @@
+class Robot {
+	//Passing a parameter to the method. 
+	public void speak(String text){
+		System.out.println(text);
+	}
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Robot robbie = new Robot();
+		robbie.speak("Hi, I am Robbie.");
+	}
+}
+
+

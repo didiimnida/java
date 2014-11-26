@@ -1,0 +1,24 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		//Initially set to an empty string. Inefficient. 
+		String info = "";
+		//In Java, strings are immutable. 
+		//Creating a new string made from the empty string. 
+		info += "My name is Bob.";
+		info += " ";
+		info += "I am a builder.";
+		
+		System.out.println(info);
+		
+		//Proper Way:
+		StringBuilder sb = new StringBuilder("");
+		sb.append(" ");
+		sb.append("I am a lion tamer.");
+		
+		System.out.println(sb.toString());
+
+	}
+}
